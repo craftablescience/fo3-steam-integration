@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29006.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fose_steam_integration", "fose_plugin_example.vcxproj", "{AE7CFEE7-4058-4E3C-ADC2-AE7480EE2028}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "..\common\common.vcxproj", "{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A1AE5F8-D5C8-4AB6-B6E5-2580078D73AD}"
+	ProjectSection(SolutionItems) = preProject
+		..\steam\include\steam_api.h = ..\steam\include\steam_api.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7CFEE7-4058-4E3C-ADC2-AE7480EE2028}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE7CFEE7-4058-4E3C-ADC2-AE7480EE2028}.Debug|Win32.Build.0 = Debug|Win32
+		{AE7CFEE7-4058-4E3C-ADC2-AE7480EE2028}.Release|Win32.ActiveCfg = Release|Win32
+		{AE7CFEE7-4058-4E3C-ADC2-AE7480EE2028}.Release|Win32.Build.0 = Release|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Debug|Win32.Build.0 = Debug|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Release|Win32.ActiveCfg = Release|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54BF2686-5CB6-407A-81DB-7D013C5B6B95}
+	EndGlobalSection
+EndGlobal

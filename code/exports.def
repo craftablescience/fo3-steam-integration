@@ -1,0 +1,4 @@
+LIBRARY	"fose_steam_integration"
+EXPORTS
+FOSEPlugin_Query
+FOSEPlugin_Load
